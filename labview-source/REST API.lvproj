@@ -16,8 +16,10 @@
 			<Item Name="Result Configuration.ctl" Type="VI" URL="../Result Configuration.ctl"/>
 		</Item>
 		<Item Name="REST API Test.vi" Type="VI" URL="../REST API Test.vi"/>
-		<Item Name="Native labview GET.vi" Type="VI" URL="../Native labview GET.vi"/>
-		<Item Name="Native labview POST.vi" Type="VI" URL="../Native labview POST.vi"/>
+		<Item Name="Native GET.vi" Type="VI" URL="../Native GET.vi"/>
+		<Item Name="Native POST.vi" Type="VI" URL="../Native POST.vi"/>
+		<Item Name="POST File Upload Example.vi" Type="VI" URL="../POST File Upload Example.vi"/>
+		<Item Name="payload.png" Type="Document" URL="../payload.png"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
