@@ -20,6 +20,8 @@
 		<Item Name="Native POST.vi" Type="VI" URL="../Native POST.vi"/>
 		<Item Name="POST File Upload Example.vi" Type="VI" URL="../POST File Upload Example.vi"/>
 		<Item Name="payload.png" Type="Document" URL="../payload.png"/>
+		<Item Name="Native POST File Upload Example.vi" Type="VI" URL="../Native POST File Upload Example.vi"/>
+		<Item Name="Native POST Multipart File Upload Example.vi" Type="VI" URL="../Native POST Multipart File Upload Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
