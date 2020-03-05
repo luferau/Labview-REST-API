@@ -13,12 +13,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
 			<Item Name="Types" Type="Folder">
-				<Item Name="Bridge Configuration.ctl" Type="VI" URL="../Tests/Types/Bridge Configuration.ctl"/>
-				<Item Name="Result Configuration.ctl" Type="VI" URL="../Tests/Types/Result Configuration.ctl"/>
+				<Item Name="Bridge Configuration.ctl" Type="VI" URL="../tests/Types/Bridge Configuration.ctl"/>
+				<Item Name="Result Configuration.ctl" Type="VI" URL="../tests/Types/Result Configuration.ctl"/>
 			</Item>
 			<Item Name="REST API Test.vi" Type="VI" URL="../Tests/REST API Test.vi"/>
-			<Item Name="Native GET.vi" Type="VI" URL="../Tests/Native GET.vi"/>
-			<Item Name="Native POST.vi" Type="VI" URL="../Tests/Native POST.vi"/>
+			<Item Name="Native GET.vi" Type="VI" URL="../tests/Native GET.vi"/>
+			<Item Name="Native POST.vi" Type="VI" URL="../tests/Native POST.vi"/>
 			<Item Name="POST File Upload Example.vi" Type="VI" URL="../Tests/POST File Upload Example.vi"/>
 			<Item Name="payload.png" Type="Document" URL="../payload.png"/>
 			<Item Name="Native POST File Upload Example.vi" Type="VI" URL="../Tests/Native POST File Upload Example.vi"/>
@@ -29,7 +29,10 @@
 				<Item Name="API" Type="Folder">
 					<Item Name="API GET Filter Parameters.vi" Type="VI" URL="../release/Support/API GET Filter Parameters.vi"/>
 					<Item Name="API POST Multipart File Upload.vi" Type="VI" URL="../release/Support/API POST Multipart File Upload.vi"/>
+					<Item Name="API PUT Attachments.vi" Type="VI" URL="../release/Support/API PUT Attachments.vi"/>
 					<Item Name="Parse API GET Filter Parameters.vi" Type="VI" URL="../release/Support/Parse API GET Filter Parameters.vi"/>
+					<Item Name="Parse API Responce Body.vi" Type="VI" URL="../release/Support/Parse API Responce Body.vi"/>
+					<Item Name="Find Responce Body Parameter.vi" Type="VI" URL="../release/Support/Find Responce Body Parameter.vi"/>
 				</Item>
 				<Item Name="Filter" Type="Folder">
 					<Item Name="Bandpass filter edit.vi" Type="VI" URL="../release/Support/Bandpass filter edit.vi"/>
@@ -41,6 +44,9 @@
 				<Item Name="Circuit Type Enum.ctl" Type="VI" URL="../release/Types/Circuit Type Enum.ctl"/>
 				<Item Name="Parameters Names Type.ctl" Type="VI" URL="../release/Types/Parameters Names Type.ctl"/>
 				<Item Name="Parameters Values Type.ctl" Type="VI" URL="../release/Types/Parameters Values Type.ctl"/>
+				<Item Name="Body Parameter Type.ctl" Type="VI" URL="../release/Types/Body Parameter Type.ctl"/>
+				<Item Name="Attachments Type.ctl" Type="VI" URL="../release/Types/Attachments Type.ctl"/>
+				<Item Name="Id Type.ctl" Type="VI" URL="../release/Types/Id Type.ctl"/>
 			</Item>
 			<Item Name="Data Share Type.ctl" Type="VI" URL="../release/Data Share Type.ctl"/>
 			<Item Name="Main RLC.vi" Type="VI" URL="../release/Main RLC.vi"/>
