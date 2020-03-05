@@ -11,17 +11,40 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configurations" Type="Folder">
-			<Item Name="Bridge Configuration.ctl" Type="VI" URL="../Bridge Configuration.ctl"/>
-			<Item Name="Result Configuration.ctl" Type="VI" URL="../Result Configuration.ctl"/>
+		<Item Name="tests" Type="Folder">
+			<Item Name="Types" Type="Folder">
+				<Item Name="Bridge Configuration.ctl" Type="VI" URL="../Tests/Types/Bridge Configuration.ctl"/>
+				<Item Name="Result Configuration.ctl" Type="VI" URL="../Tests/Types/Result Configuration.ctl"/>
+			</Item>
+			<Item Name="REST API Test.vi" Type="VI" URL="../Tests/REST API Test.vi"/>
+			<Item Name="Native GET.vi" Type="VI" URL="../Tests/Native GET.vi"/>
+			<Item Name="Native POST.vi" Type="VI" URL="../Tests/Native POST.vi"/>
+			<Item Name="POST File Upload Example.vi" Type="VI" URL="../Tests/POST File Upload Example.vi"/>
+			<Item Name="payload.png" Type="Document" URL="../payload.png"/>
+			<Item Name="Native POST File Upload Example.vi" Type="VI" URL="../Tests/Native POST File Upload Example.vi"/>
+			<Item Name="Native POST Multipart File Upload Example.vi" Type="VI" URL="../Tests/Native POST Multipart File Upload Example.vi"/>
 		</Item>
-		<Item Name="REST API Test.vi" Type="VI" URL="../REST API Test.vi"/>
-		<Item Name="Native GET.vi" Type="VI" URL="../Native GET.vi"/>
-		<Item Name="Native POST.vi" Type="VI" URL="../Native POST.vi"/>
-		<Item Name="POST File Upload Example.vi" Type="VI" URL="../POST File Upload Example.vi"/>
-		<Item Name="payload.png" Type="Document" URL="../payload.png"/>
-		<Item Name="Native POST File Upload Example.vi" Type="VI" URL="../Native POST File Upload Example.vi"/>
-		<Item Name="Native POST Multipart File Upload Example.vi" Type="VI" URL="../Native POST Multipart File Upload Example.vi"/>
+		<Item Name="release" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="API" Type="Folder">
+					<Item Name="API GET Filter Parameters.vi" Type="VI" URL="../release/Support/API GET Filter Parameters.vi"/>
+					<Item Name="API POST Multipart File Upload.vi" Type="VI" URL="../release/Support/API POST Multipart File Upload.vi"/>
+					<Item Name="Parse API GET Filter Parameters.vi" Type="VI" URL="../release/Support/Parse API GET Filter Parameters.vi"/>
+				</Item>
+				<Item Name="Filter" Type="Folder">
+					<Item Name="Bandpass filter edit.vi" Type="VI" URL="../release/Support/Bandpass filter edit.vi"/>
+					<Item Name="Building Current Freq response edit.vi" Type="VI" URL="../release/Support/Building Current Freq response edit.vi"/>
+					<Item Name="Get RLC Circuit Frequency Responce.vi" Type="VI" URL="../release/Support/Get RLC Circuit Frequency Responce.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Types" Type="Folder">
+				<Item Name="Circuit Type Enum.ctl" Type="VI" URL="../release/Types/Circuit Type Enum.ctl"/>
+				<Item Name="Parameters Names Type.ctl" Type="VI" URL="../release/Types/Parameters Names Type.ctl"/>
+				<Item Name="Parameters Values Type.ctl" Type="VI" URL="../release/Types/Parameters Values Type.ctl"/>
+			</Item>
+			<Item Name="Data Share Type.ctl" Type="VI" URL="../release/Data Share Type.ctl"/>
+			<Item Name="Main RLC.vi" Type="VI" URL="../release/Main RLC.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
@@ -71,6 +94,20 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="i3-json.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 JSON/i3-json.lvlib"/>
+				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
