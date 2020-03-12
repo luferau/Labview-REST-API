@@ -36,6 +36,11 @@
 					<Item Name="Building Current Freq response edit.vi" Type="VI" URL="../release/Support/Building Current Freq response edit.vi"/>
 					<Item Name="Get RLC Circuit Frequency Responce.vi" Type="VI" URL="../release/Support/Get RLC Circuit Frequency Responce.vi"/>
 				</Item>
+				<Item Name="RLC" Type="Folder">
+					<Item Name="RLC Series Transfer Function Magnitude in Frequency Point.vi" Type="VI" URL="../release/Support/RLC Series Transfer Function Magnitude in Frequency Point.vi"/>
+					<Item Name="RLC Transfer Function Magnitude.vi" Type="VI" URL="../release/Support/RLC Transfer Function Magnitude.vi"/>
+					<Item Name="RLC Parallel Transfer Function Magnitude in Frequency Point.vi" Type="VI" URL="../release/Support/RLC Parallel Transfer Function Magnitude in Frequency Point.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Types" Type="Folder">
 				<Item Name="Circuit Type Enum.ctl" Type="VI" URL="../release/Types/Circuit Type Enum.ctl"/>
