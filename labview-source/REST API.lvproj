@@ -16,12 +16,12 @@
 				<Item Name="Bridge Configuration.ctl" Type="VI" URL="../tests/Types/Bridge Configuration.ctl"/>
 				<Item Name="Result Configuration.ctl" Type="VI" URL="../tests/Types/Result Configuration.ctl"/>
 			</Item>
-			<Item Name="REST API Test.vi" Type="VI" URL="../Tests/REST API Test.vi"/>
+			<Item Name="REST API Test.vi" Type="VI" URL="../tests/REST API Test.vi"/>
 			<Item Name="Native GET.vi" Type="VI" URL="../tests/Native GET.vi"/>
 			<Item Name="Native POST.vi" Type="VI" URL="../tests/Native POST.vi"/>
-			<Item Name="POST File Upload Example.vi" Type="VI" URL="../Tests/POST File Upload Example.vi"/>
+			<Item Name="POST File Upload Example.vi" Type="VI" URL="../tests/POST File Upload Example.vi"/>
 			<Item Name="payload.png" Type="Document" URL="../payload.png"/>
-			<Item Name="Native POST File Upload Example.vi" Type="VI" URL="../Tests/Native POST File Upload Example.vi"/>
+			<Item Name="Native POST File Upload Example.vi" Type="VI" URL="../tests/Native POST File Upload Example.vi"/>
 			<Item Name="Native POST Multipart File Upload Example.vi" Type="VI" URL="../Tests/Native POST Multipart File Upload Example.vi"/>
 		</Item>
 		<Item Name="release" Type="Folder">
@@ -43,6 +43,7 @@
 					<Item Name="RLC Series Transfer Function Magnitude in Frequency Point.vi" Type="VI" URL="../release/Support/RLC Series Transfer Function Magnitude in Frequency Point.vi"/>
 					<Item Name="RLC Transfer Function Magnitude.vi" Type="VI" URL="../release/Support/RLC Transfer Function Magnitude.vi"/>
 					<Item Name="RLC Parallel Transfer Function Magnitude in Frequency Point.vi" Type="VI" URL="../release/Support/RLC Parallel Transfer Function Magnitude in Frequency Point.vi"/>
+					<Item Name="XY Graph Data Type.ctl" Type="VI" URL="../release/Support/XY Graph Data Type.ctl"/>
 				</Item>
 			</Item>
 			<Item Name="Types" Type="Folder">
