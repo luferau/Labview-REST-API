@@ -58,7 +58,6 @@ def uploadFileUpdateDocRev(documentRevisionId, paths, apiToken, XYSeries, XYPara
         except requests.exceptions.RequestException as err:
             return [err.response.text]
         data = res.json()
-        print(data['id'])
         ids.append({ "id": data['id'] })
 
     inputNames = json.loads(inputNames)
@@ -80,7 +79,6 @@ def uploadFileUpdateDocRev(documentRevisionId, paths, apiToken, XYSeries, XYPara
         res.raise_for_status()
     except requests.exceptions.RequestException as err:
         return [err.response.text]
-    data = res.json()
     data_patch = res.json()
     validRes = { "statusCode": res.status_code }
     return [json.dumps(validRes), json.dumps(data_patch["attachments"]), json.dumps(data_patch["formInput"])]
